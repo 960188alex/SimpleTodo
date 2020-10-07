@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         etItem = findViewById(R.id.etItem);
         rvItem = findViewById(R.id.rvItem);
 
-        etItem.setText("Add new item here");
+        etItem.setText("");
 
         loadItems();
 
